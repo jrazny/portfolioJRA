@@ -1,0 +1,26 @@
+
+.heroSectionContainer {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(31,34,53);
+
+    p {
+        line-height: 1.1;
+        max-width: 858px;
+        margin-left: 120px;
+        padding-left: 32px;
+        color: white;
+        font-size: 96px;
+        border-left: 8px solid rgb(90, 90, 90);
+    }
+}
+
+.portrait {
+    border-radius: 50px 50px;
+    margin-right: 180px;
+}
+
